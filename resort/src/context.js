@@ -35,9 +35,9 @@ class RoomProvider extends Component {
         });
         return tempItems;
     }
-    getRoom = (slug) => {
+    getRoom = slug => {
         let tempRooms = [...this.state.rooms];
-        const room = tempRooms.find((room) => room.slug === slug);
+        const room = tempRooms.find(room => room.slug === slug);
         return room;
     };
     render() {
@@ -55,4 +55,4 @@ class RoomProvider extends Component {
 
 const RoomConsumer = RoomContext.Consumer;
 
-export{RoomProvider, RoomConsumer, RoomContext}
+export { RoomProvider, RoomConsumer, RoomContext };
