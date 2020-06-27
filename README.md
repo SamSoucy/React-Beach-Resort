@@ -1,6 +1,7 @@
 # React-Beach-Resort
-# deployed on netlify
+### `deployed on netlify`
 https://beach-resort-proj.netlify.app/<br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
